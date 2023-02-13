@@ -15,26 +15,26 @@ const Signin = () => {
 
          <form className={styles.form}>
 
-            <label for="name" className={styles.label}>
+            <label htmlFor="name" className={styles.label}>
                <input type="text" id='name' placeholder='Name' className={styles.input} />
                <img src={username} alt='icon' className={styles.icon} />
             </label>
 
-            <label for="contact" className={styles.label}>
+            <label htmlFor="contact" className={styles.label}>
                <input type="number" id='contact' placeholder='Contact' className={styles.input} />
                <img src={phone} alt='icon' className={styles.icon} />
             </label>
 
-            <label for="email" className={styles.label}>
+            <label htmlFor="email" className={styles.label}>
                <input type="email" id='email' placeholder='Email' className={styles.input} />
                <img src={email} alt='icon' className={styles.icon} />
             </label>
 
-            <label for="password" className={styles.label}>
+            <label htmlFor="password" className={styles.label}>
                <input type="password" id='password' placeholder='Password' className={styles.input} />
                <img src={password} alt='icon' className={styles.icon} />
             </label>
-            <label for="button" className={styles.label}>
+            <label htmlFor="button" className={styles.label}>
                <button className={styles.btn} id='button' >
                   <p className={styles.btnTxt}>Sign Up</p>
                </button>
