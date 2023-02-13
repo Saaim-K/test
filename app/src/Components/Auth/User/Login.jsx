@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Admin.module.css'
+import styles from './User.module.css'
 import email from '../../../Assets/Email.png'
 import password from '../../../Assets/Password.png'
 

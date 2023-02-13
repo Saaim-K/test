@@ -1,0 +1,97 @@
+.logoTxt {
+   margin-top: 50px;
+   margin-bottom: 30px;
+}
+
+.saylani {
+   font-family: sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 40px;
+   text-align: center;
+   color: #44a029;
+}
+
+.saylani_subtxt {
+   font-family: sans-serif;
+   font-style: normal;
+   font-weight: 550;
+   font-size: 19px;
+   text-align: center;
+   margin-top: 10px;
+   color: #024F9D;
+   letter-spacing: .75px;
+}
+
+.form {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.label {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   font-family: sans-serif;
+   width: 25%;
+   margin-bottom: 20px;
+   border-bottom: 2px solid #D4D3D3;
+}
+
+.label:hover,
+.label:focus {
+   border-bottom: 2px solid #024F9D;
+}
+
+
+.input {
+   outline: none;
+   border: none;
+   height: 30px;
+   width: 90%;
+   font-size: 20px;
+   color: #44a029;
+   padding: 5px;
+}
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}
+
+.btn {
+   width: 100%;
+   height: 69px;
+   background: #44a029;
+   border: none;
+   box-shadow: 0px 4px 4px 5px #D4D3D3;
+   border-radius: 15px;
+}
+
+.btnTxt {
+   font-family: 'Outfit', sans-serif;
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 25px;
+   line-height: 25px;
+   color: #FFFFFF;
+}
+
+.btn:hover {
+   background: #4bc62c;
+   box-shadow: 0px 4px 4px 5px #D4D3D3;
+   border-radius: 15px;
+}
+
+.login {
+
+   font-family: sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 25px;
+   color: #024F9D;
+}
