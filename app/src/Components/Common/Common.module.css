@@ -1,5 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap');
 
+.body {
+   background: #FFFFFF;
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.logoTxt {
+   margin-bottom: 30px;
+}
+
+.saylani {
+   font-family: 'Inter', sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 50px;
+   text-align: center;
+   color: #61B846;
+}
+
+.saylani_subtxt {
+   font-family: 'Inter', sans-serif;
+   font-style: normal;
+   font-weight: 550;
+   font-size: 20px;
+   text-align: center;
+   margin-top: 10px;
+   color: #024F9D;
+}
+
 .btn {
    width: 226px;
    height: 69px;

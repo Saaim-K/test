@@ -5,17 +5,19 @@ import styles from './Common.module.css'
 const Common = () => {
    return (
       <>
-         <div>
-            <img src={logo} alt="logo" />
-         </div>
-         <div className={styles.logoTxt}>
-            <p>SAYLANI WELFARE</p>
-            <p>ONLINE DISCOUNT STORE</p>
-         </div>
-         <div>
-            <button className={styles.btn}>
-               <p className={styles.btnTxt}>Get Started</p>
-            </button>
+         <div className={styles.body}>
+            <div className={styles.logo}>
+               <img src={logo} alt="logo" width={300} />
+            </div>
+            <div className={styles.logoTxt}>
+               <p className={styles.saylani}>SAYLANI WELFARE</p>
+               <p className={styles.saylani_subtxt}>ONLINE DISCOUNT STORE</p>
+            </div>
+            <div>
+               <button className={styles.btn}>
+                  <p className={styles.btnTxt}>Get Started</p>
+               </button>
+            </div>
          </div>
       </>
    )
