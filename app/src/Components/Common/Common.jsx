@@ -14,7 +14,7 @@ const Common = () => {
                <p className={styles.saylani_subtxt}>ONLINE DISCOUNT STORE</p>
             </div>
             <div>
-               <button className={styles.btn}>
+               <button className={styles.btn} >
                   <p className={styles.btnTxt}>Get Started</p>
                </button>
             </div>
